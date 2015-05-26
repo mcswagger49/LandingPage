@@ -1,0 +1,335 @@
+body {
+  top: 0; 
+  left: 0; 
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+img{
+  margin:10%;
+}
+.navbar-static-top
+{
+  max-width: 100%;
+  position: fixed;
+  width: 100%;
+}
+p
+{
+  max-width: 100%;
+}
+#bg {
+  max-width: 100%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+p{
+  max-width: 100%;
+  padding: 40px;
+  font-size: 450%;
+  text-align: center;
+  color: black;
+  float: center;
+}
+h1 {
+  float: left;
+  font-size: 300%;
+  text-align: left;
+  color: white;
+  background-color:rgba(0,0,0,.6);
+  max-width: 100%;   
+}
+.col-xs-10{
+  color: white;
+  max-width: 100%;
+}
+.col-xs-2{
+  max-width: 100%;
+  font-size: 90%;
+  text-align: left;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.list-group-item{
+  border:0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: 30px;
+  max-width: 100%;
+}
+@media screen and (max-width: 460px) {
+  p{
+  font-size: 250%;
+  width: 100%;
+}
+h1{
+  font-size: 165%;
+  width: 100%;
+}
+.listed-group-item{
+  width: 100%;
+}
+.row{
+  width: 100%;
+}
+.col-xs-10{
+  width: 100%;
+}
+.col-xs-2{
+  width: 100%;
+}
+}
+* {
+  box-sizing: border-box;
+  -mox-box-sizing: border-box;
+}
+.navbar-static-top
+{
+position: fixed;
+width: 100%;
+}
+h1
+{
+padding-top: 30px;
+}
+
+html, body {
+  height: 100%;
+}
+p{
+  padding: 10px;
+}
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+section {
+  height: 100%;
+  min-height: 250px;
+}
+
+.bodysec {
+  min-height: 700px;
+}
+ 
+#homesec {
+  background:
+ url(http://www.animeout.com/wp-content/uploads/2014/04/no_game_no_life_wallpaper_by_kazukamichan-d77debv-790x568.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 80px;
+}
+#test {
+  z-index: 99;
+  background: white;
+  position: fixed;
+  top: 0;
+}
+
+.sticky {
+  position: fixed !important;
+  top: 0;
+}
+.right {
+  position: relative;
+  float: right;
+}
+
+ {
+  margin: 0 0 0 40px;
+  border-radius: 200px;
+}
+
+#copy {
+  padding: 20px 80px;
+  font-size: 24px;
+  text-align: justify;
+}
+
+#iconrow {
+  font-size: 130px;
+  text-align: justify;
+  margin-top: 50px;
+  color: white;
+}
+
+#iconrow::after {
+  content:'';
+  display: inline-block;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.large {
+  font-size: 45px;
+}
+.hoverblk:hover {
+  color: white;
+  transition: .3s;
+}
+@media screen and (max-width: 460px) {
+  img.right {
+  width: 100%;
+}
+p{
+  font-size: 50%;
+  margin: 0;
+  margin-left: 0;
+  width: 100%;
+}
+}
+
+
+body > div {
+  width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+.navbar-static-top{
+    position: fixed;
+    width:100%;
+    margin-top: -50px;
+}
+.container .left{
+    font-size: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+figure {
+  margin: 0;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  text-align: left;
+  margin: 30px auto;
+  -webkit-perspective: 2000px;
+  -webkit-perspective-origin: 50% -25%;
+}
+.carousel {
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: translateZ(-540px);
+  position: relative;
+  margin-left:-65px;
+  width: 600px;
+  height: 400px;
+  -webkit-transition: 1s;
+}
+.carousel img {
+  position: absolute;
+  border: 15px solid rgba(0, 0, 0, .8);
+  opacity: .5;
+    -webkit-transition: 1s;
+    width: 600px;
+    height: 500px;
+    background:#ccc;
+      }   
+  .carousel img:nth-child(1) { -webkit-transform: translateZ(540px) scale(.8); }
+  .carousel img:nth-child(2) { -webkit-transform: rotateY(45deg) translateZ(540px) scale(.8); }
+  .carousel img:nth-child(3) { -webkit-transform: rotateY(90deg) translateZ(540px) scale(.8); }
+  .carousel img:nth-child(4) { -webkit-transform: rotateY(135deg) translateZ(540px) scale(.8); }
+  .carousel img:nth-child(5) { -webkit-transform: rotateY(180deg) translateZ(540px) scale(.8); }
+  .carousel img:nth-child(6) { -webkit-transform: rotateY(225deg) translateZ(540px) scale(.8); }
+  .carousel img:nth-child(7) { -webkit-transform: rotateY(270deg) translateZ(540px) scale(.8); }
+  .carousel img:nth-child(8) { -webkit-transform: rotateY(315deg) translateZ(540px) scale(.8); }
+
+label {
+  cursor: pointer;
+  background: #eee;
+  display: inline-block;
+  border-radius: 50%;
+  width: 30px;
+  padding-top:7px;
+  height: 23px;
+  font: .9em Arial;
+}
+
+label:hover {
+  background: #ddd;
+}
+
+input {
+  position: absolute;
+  left: -9999px;
+}
+input:checked + label {
+  font-weight: bold;
+  background: #ddd
+}
+
+
+  input[value="1"]:checked ~ .container .carousel { -webkit-transform: translateZ(-540px);S}
+  input[value="2"]:checked ~ .container .carousel { -webkit-transform: translateZ(-540px) rotateY(-45deg); }
+  input[value="3"]:checked ~ .container .carousel { -webkit-transform: translateZ(-540px) rotateY(-90deg); }
+  input[value="4"]:checked ~ .container .carousel { -webkit-transform: translateZ(-540px) rotateY(-135deg); }
+  input[value="5"]:checked ~ .container .carousel { -webkit-transform: translateZ(-540px) rotateY(-180deg); }   
+  input[value="6"]:checked ~ .container .carousel { -webkit-transform: translateZ(-540px) rotateY(-225deg); }
+  input[value="7"]:checked ~ .container .carousel { -webkit-transform: translateZ(-540px) rotateY(-270deg); }
+  input[value="8"]:checked ~ .container .carousel { -webkit-transform: translateZ(-540px) rotateY(-315deg); }
+
+  input[value="1"]:checked ~ .container .carousel img:nth-child(1) { -webkit-transform: translateZ(540px) scale(1); opacity: 1; }
+  input[value="2"]:checked ~ .container .carousel img:nth-child(2) { -webkit-transform: rotateY(45deg) translateZ(540px) scale(1); opacity: 1; }
+  input[value="3"]:checked ~ .container .carousel img:nth-child(3) { -webkit-transform: rotateY(90deg) translateZ(540px) scale(1); opacity: 1; }
+  input[value="4"]:checked ~ .container .carousel img:nth-child(4) { -webkit-transform: rotateY(135deg) translateZ(540px) scale(1); opacity: 1; }
+  input[value="5"]:checked ~ .container .carousel img:nth-child(5) { -webkit-transform: rotateY(180deg) translateZ(540px) scale(1); opacity: 1; }
+  input[value="6"]:checked ~ .container .carousel img:nth-child(6) { -webkit-transform: rotateY(225deg) translateZ(540px) scale(1); opacity: 1; }
+  input[value="7"]:checked ~ .container .carousel img:nth-child(7) { -webkit-transform: rotateY(270deg) translateZ(540px) scale(1); opacity: 1; }
+  input[value="8"]:checked ~ .container .carousel img:nth-child(8) { -webkit-transform: rotateY(315deg) translateZ(540px) scale(1); opacity: 1; }
+
+@media screen and (max-width: 460px) {
+
+body > div {
+  width: 100%;
+  text-align: center;
+}
+.carousel{
+  width: 100%;
+  margin-left: 5px;
+  vertical-align: center;
+}
+.carousel img {
+  width: 100%;
+    vertical-align: center;
+}
+p{
+    width: 100%;
+    font-size:100%;
+    text-align: center;
+  }
+.container {
+  width: 100%;  
+}
+input{
+    width: 100%;
+    vertical-align: center;
+}
+}
+.navbar-static-top
+{
+  max-width: 100%;
+  position: fixed;
+  width: 100%;
+}
+p{
+    text-align: center;
+    color: black;
+    float: center;
+}
