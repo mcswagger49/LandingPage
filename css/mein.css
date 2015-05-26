@@ -1,0 +1,130 @@
+/* + Reset.css */
+/* + Open Sans @ Google Fonts */
+/* + FontAwesome.css */
+
+/* defaults */
+
+html,body { min-height:100%; }
+body { font-family:"Open Sans", helvetica,arial,sans-serif; font-size:13px; line-height: 160%; font-weight: 300; color: #444; background: #eee; }
+*,*:before,*:after { box-sizing: border-box; } img { display:block; } i { font-style:normal; } em { font-style:italic; } img { display:block; }
+
+/* Refresh, add boxes etc */
+#a { position:absolute; top:20px; right:20px; display: block; background: #eee; color:#aaa; -webkit-user-select: none; user-select: none; } #a i { cursor: pointer; font-size:11px; padding:8px 10px; border:1px dotted #ccc; transition:all .12s; margin-left:-1px; }
+#a .fa { font-family: "Open Sans", sans-serif; }
+#a .fa:last-child { background:#d00; border-color:#d00; color:#fff; }
+#a .fa:last-child:hover { background: #a00; border-color: #a00; }
+b { font-weight:400; }
+
+#btn { text-align: center; margin-top:-30px; }
+#btn i, #loop i { cursor:pointer; background: hotpink; color:#fff; padding:0 14px; margin:0 2px; line-height:250%; display:inline-block; transition:all .2s ease; border-radius:2px;  }
+#loop i { background: #aaa; }
+#btn i:hover, #loop i:hover { background:#333; }
+#loop i { display: inline-block; }
+#loop i.off { background: #ccc; }
+#loop i.on { background: #0c0; }
+#loop { text-align:center; }
+#loop p { margin: 0 0 9px; font-size:11px; text-transform:uppercase; }
+
+/* ----- end defaults ---- */
+
+/* Main layout */
+#boxes, h1, pre { width: 660px; margin: 40px auto; text-align:center; position: relative; }
+#boxes { width:auto; max-width: 850px; text-align:center; }
+
+/*#boxes, .box  { transform: translate3d(0,0,0); }*/
+
+/* Headers */
+h1,h2 { font-size: 21px; line-height:100%; font-weight:300; }
+h1 { font-size: 24px; font-weight: 700; border-bottom:1px solid #ccc; }
+h1 i { font-weight: 300; }
+h3 { font-size: 21px; white-space: nowrap; width: auto; overflow: hidden; text-overflow:ellipsis; display:block; color: #111; }
+a { color: #111; text-decoration:none; }
+a:hover { color: #111;  }
+
+pre { display:block; margin-top:-25px; text-transform: uppercase; color:#888; font-size:11px; letter-spacing:.5px; }
+pre i { cursor:help; display:inline-block; margin: 0 0 0 3px; }
+pre i:hover { color:#222; }
+pre span { color:#aaa; display:block; letter-spacing:0; }
+
+
+
+/* Paddings / Margins */
+h1 { padding: 20px 0; }
+h3 { margin:0 0 5px; }
+.box { margin: 0 15px 30px; } /* inline-block adds +4px margin */
+.inner { padding:15px; margin-top:56px; }
+.btn { padding:12px 0; width:100%; margin: 45px 0 0; }
+.fa { margin:15px 0 0; padding:5px 8px; }
+
+/* Boxes */
+.box {
+  overflow: hidden;
+  width:320px;
+  text-align:left;
+  display:inline-block;
+  position:relative;
+  
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #bbb;
+  background: #fff;
+}
+
+.fa { color:#999; font-family:"FontAwesome", "Open Sans", sans-serif; font-weight:100; font-size:12px; cursor:help; word-spacing:2px; }
+.fa:hover { color: #666; }
+.box span { display:block; color:#999; }
+.inner { text-align: center; }
+.boxImage { border-top-left-radius:3px; border-top-right-radius:3px; width:100%; }
+
+.buddy {
+  position:absolute; z-index:2;
+  width:96px; height:96px;
+  left:50%;
+  margin: -48px 0 0 -48px;
+  border-radius:50%;
+}
+
+.btn {
+  text-transform: uppercase;
+  background-color: #5677fc; color: #fff;
+  text-decoration:none;
+  border-radius:3px;
+  border-bottom:1px solid #3b50ce;
+  display:inline-block;
+  cursor:default;
+  transition:background-color .2s ease;
+}
+.btn:hover { background-color: #3b50ce; }
+
+
+/* Pop photos */
+.close { position:absolute; top:0; right:0; color:#999; font-size: 24px; cursor:default; padding:15px 20px; z-index:10; }
+.close:hover { color:#111; }
+
+.pop {
+  position:absolute; top:0; left:0; z-index:3;
+  width:100%; height:100%;
+  text-align:center;
+  border-radius:3px;
+  background: #fff;
+  border-radius:3px; padding:30px 0 0;
+  padding:15px;
+}
+
+.pop h3 { margin: 0 0 30px; line-height:150%; }
+.pop h3 i { font-size: 12px; text-transform: uppercase; color: #999; line-height:100%; display:block; margin: 10px 0 0; }
+
+
+
+.pop img { width: 125px; height:125px; display:inline-block; margin:0 7px 11px; border-radius: 3px; }
+.pop a { margin-top:15px; color:#999; display:block; text-decoration:none; }
+.pop a:hover { color:#000; }
+
+
+/* Initial display styles */
+.pop { opacity:0; display: none; }
+.pop img { opacity:0; }
+
+.box, .buddy { opacity:0; }
+
+/* Backface fix */
+.box, .buddy, .pop, .pop img, .btn { backface-visibility: hidden; }
