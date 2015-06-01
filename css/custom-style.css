@@ -1,10 +1,27 @@
 div{
 	border-style: solid;
 	border-width: 10px;
-	padding: 35px;
 }
 .container{
 	border-color: black;
+	/* set the background gradient */
+  background:url(http://en.spaceengine.org/_ph/3/82685745.jpg);
+  background-size:cover;
+
+  /* set the animation */
+  -webkit-animation:moving 20s ease infinite;
+}
+
+/* create the animation */
+ @-webkit-keyframes moving {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 500px;
+  }
+}​
+}
 }
 .row{
 	border-color: red;

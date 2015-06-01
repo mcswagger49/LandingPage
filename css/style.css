@@ -1,7 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Chango);
-
+body {
+  background: -webkit-linear-gradient(0deg, #FF8008 10%, #FFC837 90%);
+  background: linear-gradient(90deg, #FF8008 10%, #FFC837 90%);
+  text-align: center;
+}
 a {
-	color: lime;
+	color: blue;
 }
 article {
 	font-size: 25px;
@@ -32,4 +36,31 @@ font-family: 'Ubuntu Condensed', sans-serif;
 }
 span.centerImage {
      text-align: center;
+}
+p {
+  font-size: 25px;
+text-align: center;
+font-family: 'Ubuntu Condensed', sans-serif;
+ border:5px double #FB9C36; 
+ padding:5px;
+ color: lime;
+ background-image:url(http://en.spaceengine.org/_ph/3/82685745.jpg);
+
+  /* set the background gradient */
+  background:url(http://www.truthinsideofyou.org/wp-content/uploads/2014/05/Stars-Space1.jpg);
+  background-size:cover;
+
+  /* set the animation */
+  -webkit-animation:moving 20s ease infinite;
+}
+
+/* create the animation */
+ @-webkit-keyframes moving {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 500px;
+  }
+}​
 }
