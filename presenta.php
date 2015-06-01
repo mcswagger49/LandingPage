@@ -25,12 +25,11 @@
     <span class="hamburger hamburger-3"></span>
   </label>
   
-  <a href="https://instagram.com/kuroxsapparel/" class="menu-item"> <i class="fa fa-thumbs-o-up"></i> </a>
-  <a href="http://localhost/LandingPage/presenta.php" class="menu-item"> <i class="fa fa-plus"></i> </a>
-  <a href="http://localhost/LandingPage/contact.php" class="menu-item"> <i class="fa fa-envelope"></i> </a>
-  <a href="http://localhost/LandingPage/aboutme.php" class="menu-item"> <i class="fa fa-group"></i> </a>
+  <a href="https://instagram.com/kuroxsapparel/" class="menu-item"> <i class="fa fa-instagram"></i> </a>
+  <a href="http://localhost/LandingPage/presenta.php" class="menu-item"> <i class="fa fa-plus-square"></i> </a>
+  <a href="http://localhost/LandingPage/contact.php" class="menu-item"> <i class="fa fa-paper-plane"></i> </a>
+  <a href="http://localhost/LandingPage/aboutme.php" class="menu-item"> <i class="fa fa-user"></i> </a>
   <a href="http://localhost/LandingPage/index.php" class="menu-item"> <i class="fa fa-home"></i> </a>
-
 </nav>
 
 
@@ -56,8 +55,20 @@
 </svg>
 
 <article>WELCOME! THESE ARE MY PROJECTS!</br>ENJOY!</article>
-<img class="img-responsive img-circle" src="pic/Blog.jpg">
-<article class="wrap right">This is my Blog project.I made this project in the this school year. It took a long time to finish. It gave a good outcome.</article>
+<img class="wrap, img-responsive, img-rounded"width="700" height="400"  src="pics/Blog.jpg">
+<p class="wrap,right">This is my <a href="http://localhost/Blog/">Blog</a> project. The blog is one of my hardest project i tried to work on.</p>
+
+<img class="wrap, img-responsive, img-rounded"width="700" height="400"  src="pics/awesomenauts.jpg">
+<p class="wrap,right">This is my <a href="http://localhost/Awesomenauts/">Awesomenauts</a> game project. awesomnauts was probably our longest project I to worked on.</p>
+
+<img class="wrap, img-responsive, img-rounded"width="700" height="400"  src="pics/Instagram.jpg">
+<p class="wrap,right">This is my <a href="http://localhost/appacademyapi/">Instagram</a> project. The Instagam was a little bit more easier to complete, i till did my best to complete it.</p>
+
+<img class="wrap, img-responsive, img-rounded"width="700" height="400"  src="pics/to-do-1.jpg">
+<p class="wrap,right">This is my <a href="http://localhost/to-do-app/">To Do App</a> project. Was a bit easy to do and finish quick. </p>
+
+<img class="wrap, img-responsive, img-rounded"width="700" height="400"  src="pics/to-do-2.jpg">
+<p class="wrap,right">This is my <a href="http://localhost/to-do-app-2/">To Do App 2</a> project. This project took a while to edit but I came through toward the end.</p>
 </body>
 		<script type="js/bootstrap.js"></script>
 		<script type="js/jquery-2.1.1.min.js"></script>

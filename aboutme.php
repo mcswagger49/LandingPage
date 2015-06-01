@@ -26,10 +26,10 @@
     <span class="hamburger hamburger-3"></span>
   </label>
   
-  <a href="https://instagram.com/kuroxsapparel/" class="menu-item"> <i class="fa fa-thumbs-o-up"></i> </a>
-  <a href="http://localhost/LandingPage/presenta.php" class="menu-item"> <i class="fa fa-music"></i> </a>
-  <a href="http://localhost/LandingPage/contact.php" class="menu-item"> <i class="fa fa-envelope"></i> </a>
-  <a href="http://localhost/LandingPage/aboutme.php" class="menu-item"> <i class="fa fa-group"></i> </a>
+ <a href="https://instagram.com/kuroxsapparel/" class="menu-item"> <i class="fa fa-instagram"></i> </a>
+  <a href="http://localhost/LandingPage/presenta.php" class="menu-item"> <i class="fa fa-plus-square"></i> </a>
+  <a href="http://localhost/LandingPage/contact.php" class="menu-item"> <i class="fa fa-paper-plane"></i> </a>
+  <a href="http://localhost/LandingPage/aboutme.php" class="menu-item"> <i class="fa fa-user"></i> </a>
   <a href="http://localhost/LandingPage/index.php" class="menu-item"> <i class="fa fa-home"></i> </a>
 
 </nav>
@@ -55,26 +55,10 @@
       </filter>
     </defs>
 </svg>
-<article>WELCOME! THIS PAGE IS TOO GET KNOW WHO I AM.</article>
+<article>WELCOME! THIS PAGE IS ABOUT ME.</article>
 <div class="container">
-  <p>container</p>
-  <div class="row">
-      <p>row</p>
-      <div class="col-xs-10"></div>
-        <p>col-xs-10</p>
-        <div class="row">
-          <p>row</p>
-            <div class="col-xs-3"></div>
-            <div class="col-xs-9"></div>
-          </div>
-          <div class="row">
-            <p>row</p>
-             <div class="col-xs-3"></div>
-             <div class="col-xs-9"></div>
-          </div>
-      <div class="col-xs-2"></div>
-        <p>col-xs-2</p>
-  </div>
+  <img class="img-responsive, img-circle"width="360" height="360"src="pics/me2.jpg">
+  <p>Hi there, My is name is Joshua Smith. I am a PHP/CSS/JAVASCRIPT/HTML Progammmer.</br>I code for anybody and myself, I can play sports, put in work, and do service for pasadena.</br>Proin ut quam eros. Donec sed lobortis diam. Nulla nec odio lacus. Quisque porttitor egestas dolor in placerat.</br> Nunc vehicula dapibus ipsum. Duis venenatis risus non nunc fermentum dapibus. Morbi lorem ante, malesuada in mollis nec, auctor nec massa. Aenean tempus dui eget felis blandit at fringilla urna ultrices.</p>
 </div>
 </body>
     <script type="js/bootstrap.js"></script>

@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/icons.css">
 	<link href='http://fonts.googleapis.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Kotta+One' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -25,11 +26,12 @@
     <span class="hamburger hamburger-3"></span>
   </label>
   
-  <a href="https://instagram.com/kuroxsapparel/" class="menu-item"> <i class="fa fa-thumbs-o-up"></i> </a>
-  <a href="http://localhost/LandingPage/presenta.php" class="menu-item"> <i class="fa fa-music"></i> </a>
-  <a href="http://localhost/LandingPage/contact.php" class="menu-item"> <i class="fa fa-envelope"></i> </a>
-  <a href="http://localhost/LandingPage/aboutme.php" class="menu-item"> <i class="fa fa-group"></i> </a>
+ <a href="https://instagram.com/kuroxsapparel/" class="menu-item"> <i class="fa fa-instagram"></i> </a>
+  <a href="http://localhost/LandingPage/presenta.php" class="menu-item"> <i class="fa fa-plus-square"></i> </a>
+  <a href="http://localhost/LandingPage/contact.php" class="menu-item"> <i class="fa fa-paper-plane"></i> </a>
+  <a href="http://localhost/LandingPage/aboutme.php" class="menu-item"> <i class="fa fa-user"></i> </a>
   <a href="http://localhost/LandingPage/index.php" class="menu-item"> <i class="fa fa-home"></i> </a>
+
 
 </nav>
 
@@ -55,13 +57,37 @@
     </defs>
 </svg>
 <article>WELCOME! THIS PAGE IS TO CONTACT ME.	</article>
+ 
 <address>
-Written by <a href="joshsmith0419@gmail.com">Joshua Smith</a>.</br> 
+Written by Joshua Smith.</br>
 Email me at: joshsmith0419@gmail.com<br>
 Try our clothing line at<a href="http://localhost/KUXS/"> Kuroxsclothing.com</a><br>
 POST BOX OFFICE #### USA, San Gabriel, California  <br>
-My instagram <a href="https://instagram.com/_jashhh/">_jashh</a>
+My instagram </br><a href="https://instagram.com/_jashhh/">_jashhh</a>
 </address>
+
+<div class="share-button">
+    <div class="share-button-secondary">
+      <div class="share-button-secondary-content">
+        <a href="https://www.facebook.com">share with me on facebook</a>
+      </div>
+    </div>
+    <div class="share-button-primary">
+      <i class="share-button-icon fa fa-facebook"></i>
+    </div>
+
+  </div>
+    <div class="share-button">
+    <div class="share-button-secondary">
+      <div class="share-button-secondary-content">
+        <a href"=https://plus.google.com/">share with me on google+</a>
+      </div>
+    </div>
+    <div class="share-button-primary">
+      <i class="share-button-icon fa fa-google-plus"></i>
+    </div>
+  </div>
+</div>
 </body>
     <script type="js/bootstrap.js"></script>
 		<script type="js/jquery-2.1.1.min.js"></script>

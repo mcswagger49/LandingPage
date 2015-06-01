@@ -25,11 +25,12 @@
     <span class="hamburger hamburger-3"></span>
   </label>
   
-  <a href="https://instagram.com/kuroxsapparel/" class="menu-item"> <i class="fa fa-thumbs-o-up"></i> </a>
-  <a href="http://localhost/LandingPage/presenta.php" class="menu-item"> <i class="fa fa-plus"></i> </a>
-  <a href="http://localhost/LandingPage/contact.php" class="menu-item"> <i class="fa fa-envelope"></i> </a>
-  <a href="http://localhost/LandingPage/aboutme.php" class="menu-item"> <i class="fa fa-group"></i> </a>
+  <a href="https://instagram.com/kuroxsapparel/" class="menu-item"> <i class="fa fa-instagram"></i> </a>
+  <a href="http://localhost/LandingPage/presenta.php" class="menu-item"> <i class="fa fa-plus-square"></i> </a>
+  <a href="http://localhost/LandingPage/contact.php" class="menu-item"> <i class="fa fa-paper-plane"></i> </a>
+  <a href="http://localhost/LandingPage/aboutme.php" class="menu-item"> <i class="fa fa-user"></i> </a>
   <a href="http://localhost/LandingPage/index.php" class="menu-item"> <i class="fa fa-home"></i> </a>
+
 
 </nav>
 
@@ -55,14 +56,14 @@
     </defs>
 </svg>
 
-<article>WELCOME TO MY PAGE! </br> THESE ARE THE ICONS ABOVE, IT'S TO SHOW YOU WHERE TO GO.</br> SCROLL DOWN TO KNOW YOUR WAY AROUND MY SITE</br> ENJOY!</article>
+<article>WELCOME TO MY PAGE! </br> THESE ARE THE ICONS BELOW, WILL SHOW YOUR WAY AROUND.</br> ENJOY!</article>
 <span class="centerImage"><img class="img-circle" src="pics/home-icon.jpg"></span>
 	<article>This is the home icon, it'll take you back to this page.</article>
 <span class="centerImage"><img class="img-circle"src="pics/aboutme.jpg"></span>
 	<article>My page about myself icon, you can get to know without knowing me.</article>
 <span class="centerImage"><img class="img-circle"src="pics/mail.jpg"></span>
 	<article>Contact page icon, If you need me, call me maybe.</article>
-<span class="centerImage"><img class="img-circle"src="pics/like.jpg"></span>
+<span class="centerImage"><img class="img-circle"src="pics/insta.jpg"></span>
 	<article>Go like my partners clothing line.</article>
 <span class="centerImage"><img class="img-circle" src="pics/plus.jpg"></span>
 	<article>The plus icon shows the projects I have done in the past.</article>
