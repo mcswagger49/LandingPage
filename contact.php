@@ -88,6 +88,22 @@ My instagram </br><a href="https://instagram.com/_jashhh/">_jashhh</a>
     </div>
   </div>
 </div>
+<form method="post" href=""><!--registering not using create-post not making one. -->
+  <div>
+    <label for="title">Name: </label><!-- labels the title -->
+    <input type="text" name="title" />
+  </div>
+
+  <div>
+     <label for="post">Email: </label><!-- label for the post textarea -->
+     <textarea name="post"></textarea><!--spams more than one area -->
+  </div>
+
+  <div>
+    <button type="submit">Submit</button><!-- Creates the submit butten-->
+  </div>
+</form>
+
 </body>
     <script type="js/bootstrap.js"></script>
 		<script type="js/jquery-2.1.1.min.js"></script>
